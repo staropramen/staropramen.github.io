@@ -2,7 +2,7 @@
 layout: portfolio
 title: La Vie en Bleu
 permalink: /lavieenbleu/
-thumbnail: /portfolio/lavie1.jpg
+thumbnail: /images/lavie1.jpg
 categories: Portfolio 
 skills: Html, Css, Wordpress
 website: https://www.lavieenbleu.ch
