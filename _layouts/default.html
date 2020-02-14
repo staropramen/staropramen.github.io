@@ -1,0 +1,90 @@
+{% include header.html %}
+
+    <div class="slideshow">
+        <div id="slider" class="slideshow-2"></div>
+        <div id="slider-2" class="slideshow-3"></div>
+    </div>
+    
+
+    <div class="blue_bar_left minus_margin_top hide_on_mobile"></div>
+    <div class="blue_bar_right minus_margin_top hide_on_mobile"></div>
+    <div class="white_bar_left hide_on_mobile"></div>
+    <div class="white_bar_right hide_on_mobile"></div>
+
+    <div class="wrapper">
+
+        <section class="row">
+            <h1 class="row center_text">Services</h1>
+            
+            <div class="row">
+                <div class="home_shortcut">
+                    <img class="main-webdesign" alt="Web Design" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Web Design</h3>
+                    <p class="row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                </div>
+                
+                <div class="home_shortcut">
+                    <img class="main-webapp" alt="Web Apps" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Web Apps</h3>
+                    <p class="row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                </div>
+                
+                <div class="home_shortcut">
+                    <img class="main-android" alt="Android Apps" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Andoird Apps</h3>
+                    <p class="row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="blue_bar_left minus_margin_top hide_on_mobile"></div>
+    <div class="blue_bar_right minus_margin_top hide_on_mobile"></div>
+
+    <div class="wrapper hide_on_mobile">
+        <h2 class="row center_text">Recent Projects</h2>
+        <div id="logo_carousel" class="carousel">
+        </div>
+        <div class="carousel-prev" onclick="prevSlide()">&#8249</div>
+        <div class="carousel-next" onclick="nextSlide()">&#8250</div>
+        
+    </div>
+
+    <div class="blue_bar_left minus_margin_top"></div>
+    <div class="blue_bar_right minus_margin_top"></div>
+
+    <div class="wrapper">
+    	<div class="row">
+    		<h1 class="row center_text">{{ page.title }}</h1>
+    		{{ content }}
+    	</div>
+    </div>
+
+    <div class="blue_bar_left minus_margin_top"></div>
+    <div class="blue_bar_right minus_margin_top"></div>
+
+    <div class="wrapper">
+        <section class="row">
+            <h1 class="row center_text">About Us</h1>
+            
+            <div class="row">
+                <div class="home_shortcut">
+                    <img class="main-about" alt="Story" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Our Story</h3>
+                </div>
+                
+                <div class="home_shortcut">
+                    <img class="main-portfolio" alt="Portfolio" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Portfolio</h3>
+                </div>
+                
+                <div class="home_shortcut">
+                    <img class="main-mail" alt="Contact" src={{ "/images/placeholder.png" | relative_url }}>
+                    <h3 class="center_text row">Contact Us</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+{% include footer.html %}

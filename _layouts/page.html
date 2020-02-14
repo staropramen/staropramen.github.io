@@ -1,0 +1,22 @@
+{% include header.html %}
+
+    <div class="slideshow">
+        <div id="slider" class="slideshow-2"></div>
+        <div id="slider-2" class="slideshow-3"></div>
+    </div>
+    
+
+    <div class="blue_bar_left minus_margin_top hide_on_mobile"></div>
+    <div class="blue_bar_right minus_margin_top hide_on_mobile"></div>
+    <div class="white_bar_left hide_on_mobile"></div>
+    <div class="white_bar_right hide_on_mobile"></div>
+
+    
+    <div class="wrapper">
+    	<div class="row margin_bottom">
+    		<h1 class="row center_text">{{ page.title }}</h1>
+    		{{ content }}
+    	</div>
+    </div>
+
+{% include footer.html %}
