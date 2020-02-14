@@ -2,7 +2,7 @@
 layout: portfolio
 title: Gesundheits Tool
 permalink: /saudetool/
-thumbnail: /portfolio/saudetool1.jpg
+thumbnail: /images/saudetool1.jpg
 categories: Portfolio 
 skills: Html, Css, Json, Javascript, Ajax
 website: https://www.seguroauto.org/calcule-o-preco-do-seu-carro-com-seguro/
@@ -10,11 +10,11 @@ kategorie: Webapp
 client: QuinStreet
 field: Leads-Collection
 images:
-  - image_path: /portfolio/saudetool1.jpg
+  - image_path: /images/saudetool1.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/saudetool2.jpg
+  - image_path: /images/saudetool2.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/saudetool3.jpg
+  - image_path: /images/saudetool3.jpg
     title: Seguroauto 1
 ---
 

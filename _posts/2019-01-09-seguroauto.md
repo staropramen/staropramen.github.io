@@ -2,7 +2,7 @@
 layout: portfolio
 title: Seguro Auto
 permalink: /seguroauto/
-thumbnail: /portfolio/seguroauto1.jpg
+thumbnail: /images/seguroauto1.jpg
 categories: Portfolio 
 skills: Html, Css, Javascript, Wordpress, Php
 website: https://www.seguroauto.org
@@ -10,11 +10,11 @@ kategorie: Webdesign
 client: QuinStreet
 field: Leads-Collecting
 images:
-  - image_path: /portfolio/seguroauto1.jpg
+  - image_path: /images/seguroauto1.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/seguroauto2.jpg
+  - image_path: /images/seguroauto2.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/seguroauto3.jpg
+  - image_path: /images/seguroauto3.jpg
     title: Seguroauto 1
 ---
 

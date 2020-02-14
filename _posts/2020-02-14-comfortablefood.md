@@ -2,7 +2,7 @@
 layout: portfolio
 title: Comfortablefood
 permalink: /comfortablefood/
-thumbnail: /portfolio/comfort1.jpg
+thumbnail: /images/comfort1.jpg
 categories: Portfolio 
 skills: Html, Css, Wordpress
 website: https://www.seguroauto.org
@@ -10,11 +10,11 @@ kategorie: Webdesign
 client: Anna Lisa McBright
 field: Food-Blog
 images:
-  - image_path: /portfolio/comfort1.jpg
+  - image_path: /images/comfort1.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/comfort2.jpg
+  - image_path: /images/comfort2.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/comfort3.jpg
+  - image_path: /images/comfort3.jpg
     title: Seguroauto 1
 ---
 

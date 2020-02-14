@@ -10,11 +10,11 @@ kategorie: Webdesign
 client: Rehberg Communications
 field: Non-Profit
 images:
-  - image_path: /portfolio/lavie1.jpg
+  - image_path: /images/lavie1.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/lavie2.jpg
+  - image_path: /images/lavie2.jpg
     title: Seguroauto 1
-  - image_path: /portfolio/lavie3.jpg
+  - image_path: /images/lavie3.jpg
     title: Seguroauto 1
 ---
 
